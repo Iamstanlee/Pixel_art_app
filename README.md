@@ -1,6 +1,8 @@
-# Pixel Art Maker Project
+## Pixel Art Maker Project
 
-
+ ![Pixel](https://github.com/AkStanlee/AkStanlee.github.io-pixel-art-maker/images.png)
+ 
+* [Link](##Link)
 
 * [Instructions](#Instructions)
 
