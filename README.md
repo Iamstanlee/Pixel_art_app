@@ -1,6 +1,6 @@
 ## Pixel Art Maker Project
 
- ![Pixel](https://github.com/AkStanlee/AkStanlee.github.io-pixel-art-maker/images.png)
+![oixel art](images.png)
  
 * [Link](##Link)
 
