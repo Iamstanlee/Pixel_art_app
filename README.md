@@ -1,14 +1,10 @@
 ## Pixel Art Maker Project
 
-![oixel art](images.png)
+![pixel art](images.png)
  
-* [Link](##Link)
-
-* [Instructions](#Instructions)
-
 ## Link
 
-Click here [HERE](https://akstanlee.github.io/AkStanlee.github.io-pixel-art-maker/) to view App
+Click [HERE](https://akstanlee.github.io/AkStanlee.github.io-pixel-art-maker/) to view App
 
 # Instructions
 
