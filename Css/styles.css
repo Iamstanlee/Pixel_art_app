@@ -27,12 +27,12 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 td
 {
-    height: 12px;
-    width:12px;
-    border:0.1px solid #000;
+    height: 7px;
+    width:7px;
 }
 #buttonA,#buttonB
 {
@@ -65,11 +65,11 @@ td
     border-radius:6px;
     outline: none;
 }
+#imgA
+{
+    position: relative;   
+}
 span
 {
     font-weight: bolder;
-}
-p
-{
-    margin-bottom: 0;
 }
