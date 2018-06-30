@@ -3,7 +3,7 @@ function makeGrid()
 var height = prompt("Enter Height of grid :");
 var width = prompt("Enter Width of grid :");
 
-if((height <= 35) && (width <= 75))
+if((height <= 40) && (width <= 100))
 {
 	var table = $('#pixel');
  	var row = 0;
@@ -13,7 +13,7 @@ while( row < height)
 	var column = 0;
 while( column < width)
 	{
-	table.append("<td>");
+	table.append('<td>');
 	column++;
 	}
 	row++;
@@ -21,7 +21,7 @@ while( column < width)
 }
 	else
 	{
-		alert("Maximum grid size is 35(height) by 75(width).");
+		alert("Maximum grid size is 40(height) by 100(width).");
 	}
 }
 
@@ -46,7 +46,7 @@ $('#buttonB').on('click',function(e)
  $('#buttonA').on('click',function(e)
 {
 	e.preventDefault();
-	alert("\tHOW TO USE :\n 1. Start by choosing a preferred grid size (max : 35 by 75).\n 2. Pick a color from the color bar.\n 3. Color a box by clicking on it, Double-Click to remove color, Press the Small buttons to RESET grid to default and FILL to fill background with desired color.\n\t\t ENJOY! ");
+	alert("\tHOW TO USE :\n 1. Start by choosing a preferred grid size (max : 40 by 100).\n 2. Pick a color from the color bar.\n 3. Color a box by clicking on it, Double-Click to remove color, Press the Small buttons to RESET grid to default and FILL to fill background with desired color.\n\t\t ENJOY! ");
 });
 
 //Reset background(table)
@@ -54,6 +54,7 @@ function Reset()
 {
 	$('td').removeAttr('style');
 	$('table').removeAttr('style');
+	$('table').fadeIn(3000);
 }
 
 $('#buttonC').on('click',function(e){
@@ -73,5 +74,8 @@ $('#buttonD').on('click',function(e){
  	Fill();
  });
 
-
-
+//fade effect
+$('#buttonB').on('click',function()
+{
+	$('#pixel').fadeIn(3000);
+});
