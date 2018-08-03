@@ -4,7 +4,7 @@
  
 ## Link
 
-Click [HERE](https://akstanlee.github.io/AkStanlee.github.io-pixel-art-maker/) to view App
+Click [HERE](https://akstanlee.github.io/pixel-art/) to view App
 
 # Instructions
 
